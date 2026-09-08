@@ -70,7 +70,8 @@
 
 > À compléter avec mes propres mots.
 
----
+---== compares the values and can change the type automatically. Example: 5 == "5" → true.
+
 
 ### Question 05
 
@@ -82,7 +83,11 @@
 
 > À compléter avec mes propres mots.
 
----
+------ With const, we cannot change the value.
+Example:
+
+const age = 20;
+age = 21; → error
 
 ### Question 06
 
@@ -94,7 +99,8 @@
 
 > À compléter avec mes propres mots.
 
----
+------ When we do 5 + "5", JavaScript changes the number to a string and joins them.
+Example: 5 + "5" → "55"
 
 ### Question 07
 
@@ -106,7 +112,8 @@
 
 > À compléter avec mes propres mots.
 
----
+---% gives the rest of a division.
+Example: 10 % 3 → 1
 
 ### Question 08
 
@@ -118,7 +125,10 @@
 
 > À compléter avec mes propres mots.
 
----
+---&& means AND. Both conditions must be true.
+Example: age >= 18 && hasTicket
+
+
 
 ### Question 09
 
@@ -130,7 +140,14 @@
 
 > À compléter avec mes propres mots.
 
----
+---Yes, we can use switch instead of many if / else if.
+It is useful when we check the same variable with different values.
+
+Example:
+
+switch (jour) { case "lundi": ... }
+
+
 
 ### Question 10
 
@@ -142,7 +159,9 @@
 
 > À compléter avec mes propres mots.
 
-
+--- fals value is a value that JavaScript considers as false.
+Examples:
+if(0)=fals
 ## ✅ Validation de la recherche
 
 - [ ] Je peux expliquer au moins trois réponses sans lire mes notes.
