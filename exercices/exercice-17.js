@@ -21,7 +21,24 @@
 let joueur1 = "Pierre";
 let joueur2 = "Ciseaux";
 
-switch(joueur1){
-    case "Pierre"
+switch (joueur1) {
+    case "Pierre":
+        if (joueur2 === "Ciseaux") {
+            console.log("Joueur 1 gagne !");
+        }
+        break;
+
+    case "Feuille":
+        if (joueur2 === "Pierre") {
+            console.log("Joueur 1 gagne !");
+        }
+        break;
+
+    case "Ciseaux":
+        if (joueur2 === "Feuille") {
+            console.log("Joueur 1 gagne !");
+        }
+        break;
 }
+
 
