@@ -25,7 +25,9 @@
 
 > À compléter avec mes propres mots.
 
---- let the we can craition the variabel constant example let age = 20; const it is the opposite of let it is a constant value example const pi = 3.14; var is the old version is the same as let and example var name = "Mohamed";
+--- let we can create a variable and change the value. Example: let age = 20;
+const is a constant value, we cannot change it. Example: const pi = 3.14;
+var is the old version, similar to let. Example: var name = "Mohamed";
 
 ### Question 02
 
